@@ -2,8 +2,8 @@
   font-family: Inter, 'Segoe UI', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #171d1a;
-  background: #c7cfc2;
+  color: #1b1b22;
+  background: #eae6ef;
   color-scheme: light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,15 +16,15 @@
 }
 
 html {
-  background: #c7cfc2;
+  background: #eae6ef;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #c7cfc2;
-  color: #171d1a;
+  background: #eae6ef;
+  color: #1b1b22;
 }
 
 button,
