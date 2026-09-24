@@ -374,8 +374,6 @@ function App() {
                 state = 'correct'
               } else if (typedText[index] && typedText[index] !== character) {
                 state = 'incorrect'
-              } else if (index === typedText.length && !isFinished && index < currentText.length) {
-                state = 'current'
               }
 
               return (

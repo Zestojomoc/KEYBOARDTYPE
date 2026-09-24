@@ -165,7 +165,7 @@
   border: none;
   background: transparent;
   color: transparent;
-  caret-color: #7ae9a1;
+  caret-color: transparent;
   outline: none;
   padding: 18px 18px 20px;
   font: inherit;
@@ -202,23 +202,6 @@
 .char.incorrect {
   color: #f6b7c6;
   background: rgba(190, 54, 74, 0.08);
-}
-
-.char.current {
-  color: #ebfff1;
-  background: rgba(34, 197, 94, 0.14);
-  box-shadow: inset 0 -2px 0 rgba(110, 231, 168, 0.9), 0 0 0 1px rgba(110, 231, 168, 0.08);
-  animation: pulseCaret 1.1s ease-in-out infinite;
-}
-
-@keyframes pulseCaret {
-  0%,
-  100% {
-    box-shadow: inset 0 -2px 0 rgba(110, 231, 168, 0.9), 0 0 0 1px rgba(110, 231, 168, 0.08);
-  }
-  50% {
-    box-shadow: inset 0 -2px 0 rgba(110, 231, 168, 0.9), 0 0 0 1px rgba(110, 231, 168, 0.14), 0 0 14px rgba(110, 231, 168, 0.08);
-  }
 }
 
 .custom-box {
