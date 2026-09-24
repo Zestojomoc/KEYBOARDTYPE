@@ -2,9 +2,9 @@
   font-family: Inter, 'Segoe UI', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #edf5ee;
-  background: #0b0f0d;
-  color-scheme: dark;
+  color: #171d1a;
+  background: #c7cfc2;
+  color-scheme: light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,16 +16,15 @@
 }
 
 html {
-  background: #0b0f0d;
+  background: #c7cfc2;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background:
-    radial-gradient(circle at top, rgba(34, 197, 94, 0.12), transparent 42%),
-    #0b0f0d;
+  background: #c7cfc2;
+  color: #171d1a;
 }
 
 button,
