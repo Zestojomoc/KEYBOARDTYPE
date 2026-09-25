@@ -2,9 +2,9 @@
   font-family: Inter, 'Segoe UI', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #1b1b22;
-  background: #eae6ef;
-  color-scheme: light;
+  color: #f4f4f8;
+  background: radial-gradient(circle at top, #2a2d32 0%, #1d2025 45%, #171a1d 100%);
+  color-scheme: dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,15 +16,15 @@
 }
 
 html {
-  background: #eae6ef;
+  background: radial-gradient(circle at top, #2a2d32 0%, #1d2025 45%, #171a1d 100%);
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #eae6ef;
-  color: #1b1b22;
+  background: radial-gradient(circle at top, #2a2d32 0%, #1d2025 45%, #171a1d 100%);
+  color: #f4f4f8;
 }
 
 button,
