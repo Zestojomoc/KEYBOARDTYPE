@@ -257,7 +257,7 @@ function App() {
       <header className="topbar">
         <div className="brand-block">
           <span className="brand-mark">K</span>
-          <span className="brand-name">KEYTYPE</span>
+          <span className="brand-name">keytype</span>
         </div>
 
         <nav className="mode-tabs" aria-label="Test mode selector">

@@ -138,7 +138,6 @@
 .stat-label {
   font-size: 0.72rem;
   color: #5b5974;
-  text-transform: uppercase;
   letter-spacing: 0.12em;
 }
 
@@ -232,7 +231,6 @@
 .custom-label {
   font-size: 0.78rem;
   color: #5b5974;
-  text-transform: uppercase;
   letter-spacing: 0.14em;
 }
 
@@ -307,7 +305,6 @@
 .history-label {
   color: rgba(233, 224, 255, 0.72);
   font-size: 0.72rem;
-  text-transform: uppercase;
   letter-spacing: 0.12em;
 }
 
@@ -402,7 +399,6 @@
   margin: 0 0 12px;
   color: #d0bafc;
   letter-spacing: 0.16em;
-  text-transform: uppercase;
   font-size: 0.72rem;
 }
 
