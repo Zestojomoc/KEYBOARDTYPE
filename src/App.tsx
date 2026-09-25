@@ -369,6 +369,7 @@ function App() {
           <div className="text-display" aria-hidden="true">
             {currentText.split('').map((character, index) => {
               let state = 'untyped'
+              const isCurrent = index === typedText.length && !isFinished
 
               if (typedText[index] && typedText[index] === character) {
                 state = 'correct'
@@ -377,7 +378,7 @@ function App() {
               }
 
               return (
-                <span key={`${character}-${index}`} className={`char ${state}`}>
+                <span key={`${character}-${index}`} className={`char ${state} ${isCurrent ? 'current' : ''}`}>
                   {character === ' ' ? '\u00A0' : character}
                 </span>
               )
