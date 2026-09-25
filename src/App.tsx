@@ -367,19 +367,22 @@ function App() {
           />
 
           <div className="text-display" aria-hidden="true">
-            {currentText.split('').map((character, index) => {
+            {currentText.split(' ').map((word, index, words) => {
+              const typedWords = typedText.split(' ')
+              const typedWord = typedWords[index] ?? ''
+              const isCurrent = index === typedWords.length - 1 && !typedText.endsWith(' ') && !isFinished
               let state = 'untyped'
-              const isCurrent = index === typedText.length && !isFinished
 
-              if (typedText[index] && typedText[index] === character) {
+              if (typedWord && typedWord === word) {
                 state = 'correct'
-              } else if (typedText[index] && typedText[index] !== character) {
+              } else if (typedWord && typedWord !== word) {
                 state = 'incorrect'
               }
 
               return (
-                <span key={`${character}-${index}`} className={`char ${state} ${isCurrent ? 'current' : ''}`}>
-                  {character === ' ' ? '\u00A0' : character}
+                <span key={`${word}-${index}`} className={`word ${state} ${isCurrent ? 'active' : ''}`}>
+                  {word || '\u00A0'}
+                  {!words[index + 1] ? '' : ' '}
                 </span>
               )
             })}

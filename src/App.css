@@ -3,10 +3,11 @@
   margin: 0 auto;
   padding: 26px 20px 48px;
   min-height: 100vh;
-  background: rgba(38, 40, 45, 0.78);
+  background: rgba(15, 18, 22, 0.86);
   border: 1px solid rgba(255, 255, 255, 0.04);
-  border-radius: 0;
-  box-shadow: none;
+  border-radius: 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 18px 40px rgba(2, 6, 23, 0.22);
+  backdrop-filter: blur(10px);
 }
 
 .topbar {
@@ -31,15 +32,15 @@
   width: 30px;
   height: 30px;
   border-radius: 8px;
-  background: linear-gradient(180deg, #7dd3fc, #38bdf8);
-  color: #0b1730;
+  background: linear-gradient(180deg, #edf5ff, #dfeafc);
+  color: #0f172a;
   font-weight: 800;
   font-size: 0.82rem;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15), 0 8px 16px rgba(56, 189, 248, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 8px 18px rgba(188, 196, 210, 0.12);
 }
 
 .brand-name {
-  color: #f5f5f7;
+  color: #f8fbff;
   font-size: 1.1rem;
   letter-spacing: 0.03em;
   font-weight: 700;
@@ -51,9 +52,9 @@
   gap: 10px;
   flex-wrap: wrap;
   justify-content: flex-end;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.65);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 14px;
   padding: 6px;
 }
 
@@ -61,13 +62,15 @@
 .chip,
 .action-button,
 .history-clear {
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(255, 255, 255, 0.04);
-  color: #ebedf1;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  background: rgba(17, 24, 31, 0.72);
+  color: #dfe7f5;
   border-radius: 10px;
   padding: 10px 14px;
   font: inherit;
   cursor: pointer;
+  text-transform: lowercase;
+  letter-spacing: 0.01em;
   transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -91,10 +94,10 @@
 
 .mode-tab.active,
 .chip.active {
-  background: rgba(96, 165, 250, 0.16);
-  color: #f3f8ff;
-  border-color: rgba(125, 211, 252, 0.7);
-  box-shadow: inset 0 0 0 1px rgba(125, 211, 252, 0.12), 0 0 0 1px rgba(59, 130, 246, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: #f5f9ff;
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .panel {
@@ -132,8 +135,8 @@
 }
 
 .stat-box {
-  background: rgba(255, 255, 255, 0.38);
-  border: 1px solid rgba(55, 44, 79, 0.06);
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid rgba(148, 163, 184, 0.12);
   border-radius: 12px;
   padding: 14px 16px;
   display: flex;
@@ -143,12 +146,12 @@
 
 .stat-label {
   font-size: 0.72rem;
-  color: #5b5974;
+  color: #a5b4cf;
   letter-spacing: 0.12em;
 }
 
 .stat-value {
-  color: #1c1b2a;
+  color: #f8fbff;
   font-size: clamp(1.1rem, 1rem + 0.9vw, 1.9rem);
   line-height: 1.1;
 }
@@ -159,13 +162,14 @@
 
 .typing-area {
   position: relative;
-  background: transparent;
-  border: none;
-  border-radius: 0;
+  background: rgba(11, 15, 20, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 22px;
   min-height: 360px;
   padding: 26px 18px 20px;
   cursor: text;
   overflow: hidden;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
 }
 
 .typing-input {
@@ -190,13 +194,12 @@
 .text-display {
   position: relative;
   z-index: 1;
-  color: rgba(255, 255, 255, 0.55);
-  font-size: clamp(2rem, 1.7rem + 1vw, 3rem);
-  line-height: 1.45;
-  letter-spacing: 0.02em;
+  color: rgba(226, 232, 240, 0.76);
+  font-size: clamp(2.1rem, 1.8rem + 1vw, 3.2rem);
+  line-height: 1.52;
+  letter-spacing: 0.026em;
   white-space: normal;
   word-break: break-word;
-  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
   min-height: 220px;
   max-width: 980px;
   margin: 0 auto;
@@ -211,30 +214,31 @@
 
 .word {
   display: inline-block;
-  padding: 0.08em 0.12em;
-  border-radius: 7px;
-  transition: color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  padding: 0.08em 0.15em;
+  border-radius: 10px;
+  transition: color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
 }
 
 .word.untyped {
-  color: rgba(255, 255, 255, 0.58);
+  color: rgba(226, 232, 240, 0.72);
 }
 
 .word.active {
-  background: rgba(96, 165, 250, 0.12);
-  border: 1px solid rgba(125, 211, 252, 0.7);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   color: #f5f9ff;
-  box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.08), inset 0 -2px 0 rgba(96, 165, 250, 0.9);
+  font-weight: 600;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.06);
 }
 
 .word.correct {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(248, 250, 252, 0.96);
 }
 
 .word.incorrect {
-  color: #ff8e9f;
-  background: rgba(255, 115, 137, 0.09);
-  border: 1px solid rgba(255, 115, 137, 0.45);
+  color: #fecdd3;
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(251, 113, 133, 0.42);
 }
 
 .custom-box {
@@ -246,14 +250,14 @@
 
 .custom-label {
   font-size: 0.78rem;
-  color: #5b5974;
+  color: #b8c6e3;
   letter-spacing: 0.14em;
 }
 
 .custom-box textarea {
-  border: 1px solid rgba(62, 43, 92, 0.1);
-  background: rgba(255, 255, 255, 0.55);
-  color: #1d1b2a;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: rgba(15, 23, 42, 0.52);
+  color: #edf6ff;
   border-radius: 12px;
   padding: 12px 14px;
   font: inherit;
@@ -282,8 +286,10 @@
 .summary-panel {
   margin-top: 18px;
   padding: 16px 18px;
-  background: linear-gradient(135deg, #0f172a, #1d4ed8 30%, #0f172a 100%);
+  background: rgba(17, 22, 28, 0.82);
   color: #edf6ff;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
 }
 
 .summary-header,
@@ -333,7 +339,9 @@
 .history-panel {
   margin-top: 18px;
   padding: 18px 20px;
-  background: rgba(255, 255, 255, 0.16);
+  background: rgba(17, 22, 28, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
 }
 
 .history-header {
@@ -346,7 +354,7 @@
 
 .history-header h3 {
   margin: 6px 0 0;
-  color: #1d1b2a;
+  color: #eff6ff;
   font-size: 1.1rem;
 }
 
@@ -388,7 +396,7 @@
 
 .empty-history {
   margin: 0;
-  color: #5d5a70;
+  color: #a7b4d0;
 }
 
 .results-overlay {
