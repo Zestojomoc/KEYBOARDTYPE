@@ -405,7 +405,7 @@ function App() {
           <button type="button" className="action-button primary" onClick={restartTest}>
             Restart
           </button>
-          <button type="button" className="action-button" onClick={() => handleModeChange('time')}>
+          <button type="button" className="action-button new-test" onClick={() => handleModeChange('time')}>
             New test
           </button>
         </div>
@@ -490,7 +490,7 @@ function App() {
               <button type="button" className="action-button primary" onClick={restartTest}>
                 Restart
               </button>
-              <button type="button" className="action-button" onClick={() => handleModeChange('time')}>
+              <button type="button" className="action-button new-test" onClick={() => handleModeChange('time')}>
                 New test
               </button>
             </div>

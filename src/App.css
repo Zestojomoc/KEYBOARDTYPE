@@ -283,6 +283,14 @@
   box-shadow: 0 6px 22px rgba(239, 68, 68, 0.28);
 }
 
+.action-button.new-test {
+  background: linear-gradient(180deg, #d8ff75, #a8ed45);
+  border-color: rgba(168, 237, 69, 0.72);
+  color: #17220b;
+  font-weight: 700;
+  box-shadow: 0 6px 22px rgba(168, 237, 69, 0.28);
+}
+
 .summary-panel {
   margin-top: 18px;
   padding: 16px 18px;
