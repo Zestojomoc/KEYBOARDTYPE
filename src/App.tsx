@@ -417,15 +417,15 @@ function App() {
           <strong>{Math.round(rawWpm)} raw</strong>
         </div>
         <div className="summary-grid">
-          <div>
+          <div className="summary-metric summary-correct">
             <span>Correct</span>
             <strong>{correctCharacters}</strong>
           </div>
-          <div>
+          <div className="summary-metric summary-speed">
             <span>Raw WPM</span>
             <strong>{Math.round(rawWpm)}</strong>
           </div>
-          <div>
+          <div className="summary-metric summary-characters">
             <span>Characters</span>
             <strong>{totalTyped}</strong>
           </div>

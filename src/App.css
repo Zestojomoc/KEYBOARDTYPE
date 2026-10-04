@@ -320,14 +320,40 @@
   gap: 12px;
 }
 
-.summary-grid div {
+.summary-grid .summary-metric {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(147, 197, 253, 0.18);
+  border: 1px solid transparent;
+  border-left-width: 3px;
   border-radius: 12px;
   padding: 12px 14px;
+}
+
+.summary-correct {
+  background: rgba(168, 237, 69, 0.09);
+  border-color: rgba(168, 237, 69, 0.24);
+  color: #c9ff76;
+}
+
+.summary-speed {
+  background: rgba(56, 189, 248, 0.09);
+  border-color: rgba(56, 189, 248, 0.24);
+  color: #7dd3fc;
+}
+
+.summary-characters {
+  background: rgba(251, 146, 60, 0.09);
+  border-color: rgba(251, 146, 60, 0.24);
+  color: #fdba74;
+}
+
+.summary-grid .summary-metric span {
+  color: currentColor;
+}
+
+.summary-grid .summary-metric strong {
+  color: currentColor;
 }
 
 .summary-grid span,
