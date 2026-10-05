@@ -284,11 +284,11 @@
 }
 
 .action-button.new-test {
-  background: linear-gradient(180deg, #d8ff75, #a8ed45);
-  border-color: rgba(168, 237, 69, 0.72);
+  background: linear-gradient(180deg, #fff176, #facc15);
+  border-color: rgba(250, 204, 21, 0.78);
   color: #17220b;
   font-weight: 700;
-  box-shadow: 0 6px 22px rgba(168, 237, 69, 0.28);
+  box-shadow: 0 6px 22px rgba(250, 204, 21, 0.28);
 }
 
 .summary-panel {
