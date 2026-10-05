@@ -276,11 +276,11 @@
 }
 
 .action-button.primary {
-  background: linear-gradient(180deg, #ff7777, #e53935);
-  border-color: rgba(239, 68, 68, 0.78);
-  color: #fff;
+  background: linear-gradient(180deg, #86efac, #4ade80);
+  border-color: rgba(74, 222, 128, 0.78);
+  color: #102b1b;
   font-weight: 700;
-  box-shadow: 0 6px 22px rgba(239, 68, 68, 0.28);
+  box-shadow: 0 6px 22px rgba(74, 222, 128, 0.28);
 }
 
 .action-button.new-test {
