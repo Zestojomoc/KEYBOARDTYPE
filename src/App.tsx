@@ -341,15 +341,17 @@ function App() {
           </div>
           <div className="stat-box">
             <span className="stat-label">Accuracy</span>
-            <strong className="stat-value">{Math.min(Math.max(accuracy, 0), 100).toFixed(0)}%</strong>
+            <strong className="stat-value stat-value--accuracy">{Math.min(Math.max(accuracy, 0), 100).toFixed(0)}%</strong>
           </div>
           <div className="stat-box">
             <span className="stat-label">Time</span>
-            <strong className="stat-value">{timeDisplay}s</strong>
+            <strong className="stat-value stat-value--time">{timeDisplay}s</strong>
           </div>
           <div className="stat-box">
             <span className="stat-label">Errors</span>
-            <strong className="stat-value">{errorCount}</strong>
+            <strong className={`stat-value ${errorCount > 0 ? 'stat-value--errors' : 'stat-value--success'}`}>
+              {errorCount}
+            </strong>
           </div>
         </div>
 
