@@ -335,19 +335,19 @@ function App() {
         </div>
 
         <div className="stats-grid" aria-live="polite">
-          <div className="stat-box">
+          <div className="stat-box stat-box--wpm">
             <span className="stat-label">WPM</span>
             <strong className="stat-value accent">{Math.round(wpm)}</strong>
           </div>
-          <div className="stat-box">
+          <div className="stat-box stat-box--accuracy">
             <span className="stat-label">Accuracy</span>
             <strong className="stat-value stat-value--accuracy">{Math.min(Math.max(accuracy, 0), 100).toFixed(0)}%</strong>
           </div>
-          <div className="stat-box">
+          <div className="stat-box stat-box--time">
             <span className="stat-label">Time</span>
             <strong className="stat-value stat-value--time">{timeDisplay}s</strong>
           </div>
-          <div className="stat-box">
+          <div className={`stat-box ${errorCount > 0 ? 'stat-box--errors' : 'stat-box--success'}`}>
             <span className="stat-label">Errors</span>
             <strong className={`stat-value ${errorCount > 0 ? 'stat-value--errors' : 'stat-value--success'}`}>
               {errorCount}

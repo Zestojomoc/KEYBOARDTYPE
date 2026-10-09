@@ -150,6 +150,31 @@
   gap: 6px;
 }
 
+.stat-box--wpm {
+  background: rgba(96, 165, 250, 0.09);
+  border-color: rgba(96, 165, 250, 0.24);
+}
+
+.stat-box--accuracy {
+  background: rgba(45, 212, 191, 0.09);
+  border-color: rgba(45, 212, 191, 0.24);
+}
+
+.stat-box--time {
+  background: rgba(167, 139, 250, 0.09);
+  border-color: rgba(167, 139, 250, 0.24);
+}
+
+.stat-box--success {
+  background: rgba(74, 222, 128, 0.09);
+  border-color: rgba(74, 222, 128, 0.24);
+}
+
+.stat-box--errors {
+  background: rgba(251, 113, 133, 0.09);
+  border-color: rgba(251, 113, 133, 0.24);
+}
+
 .stat-label {
   font-size: 0.72rem;
   color: #a5b4cf;
