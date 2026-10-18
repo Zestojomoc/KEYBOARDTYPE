@@ -32,11 +32,11 @@
   width: 30px;
   height: 30px;
   border-radius: 8px;
-  background: linear-gradient(180deg, #4ade80, #22c55e);
+  background: linear-gradient(180deg, #60a5fa, #2563eb);
   color: #fff;
   font-weight: 800;
   font-size: 0.82rem;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.24), 0 8px 18px rgba(34, 197, 94, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.24), 0 8px 18px rgba(37, 99, 235, 0.3);
 }
 
 .brand-name {
@@ -100,10 +100,10 @@
 }
 
 .chip.active {
-  background: rgba(234, 179, 8, 0.18);
-  color: #fde047;
-  border-color: rgba(234, 179, 8, 0.55);
-  box-shadow: inset 0 1px 0 rgba(254, 249, 195, 0.12);
+  background: rgba(59, 130, 246, 0.18);
+  color: #93c5fd;
+  border-color: rgba(59, 130, 246, 0.55);
+  box-shadow: inset 0 1px 0 rgba(219, 234, 254, 0.12);
 }
 
 .panel {
@@ -141,8 +141,8 @@
 }
 
 .stat-box {
-  background: rgba(234, 179, 8, 0.09);
-  border: 1px solid rgba(234, 179, 8, 0.24);
+  background: rgba(59, 130, 246, 0.09);
+  border: 1px solid rgba(59, 130, 246, 0.24);
   border-radius: 12px;
   padding: 14px 16px;
   display: flex;
@@ -157,7 +157,7 @@
 }
 
 .stat-value {
-  color: #fbbf24;
+  color: #60a5fa;
   font-size: clamp(1.1rem, 1rem + 0.9vw, 1.9rem);
   line-height: 1.1;
 }
