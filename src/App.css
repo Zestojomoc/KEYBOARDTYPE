@@ -32,11 +32,11 @@
   width: 30px;
   height: 30px;
   border-radius: 8px;
-  background: linear-gradient(180deg, #60a5fa, #2563eb);
+  background: linear-gradient(180deg, #f87171, #dc2626);
   color: #fff;
   font-weight: 800;
   font-size: 0.82rem;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.24), 0 8px 18px rgba(37, 99, 235, 0.3);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.24), 0 8px 18px rgba(220, 38, 38, 0.3);
 }
 
 .brand-name {
@@ -78,8 +78,8 @@
 .chip:hover,
 .action-button:hover,
 .history-clear:hover {
-  border-color: rgba(96, 165, 250, 0.8);
-  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.12);
+  border-color: rgba(248, 113, 113, 0.8);
+  box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.12);
 }
 
 .mode-tab:focus-visible,
@@ -88,21 +88,21 @@
 .history-clear:focus-visible,
 .typing-input:focus-visible,
 .custom-box textarea:focus-visible {
-  outline: 2px solid rgba(96, 165, 250, 0.9);
+  outline: 2px solid rgba(248, 113, 113, 0.9);
   outline-offset: 2px;
 }
 
 .mode-tab.active {
-  background: rgba(34, 197, 94, 0.18);
-  color: #86efac;
-  border-color: rgba(34, 197, 94, 0.55);
+  background: rgba(239, 68, 68, 0.18);
+  color: #fca5a5;
+  border-color: rgba(239, 68, 68, 0.55);
   box-shadow: inset 0 1px 0 rgba(220, 252, 231, 0.12);
 }
 
 .chip.active {
-  background: rgba(59, 130, 246, 0.18);
-  color: #93c5fd;
-  border-color: rgba(59, 130, 246, 0.55);
+  background: rgba(239, 68, 68, 0.18);
+  color: #fca5a5;
+  border-color: rgba(239, 68, 68, 0.55);
   box-shadow: inset 0 1px 0 rgba(219, 234, 254, 0.12);
 }
 
@@ -141,8 +141,8 @@
 }
 
 .stat-box {
-  background: rgba(59, 130, 246, 0.09);
-  border: 1px solid rgba(59, 130, 246, 0.24);
+  background: rgba(239, 68, 68, 0.09);
+  border: 1px solid rgba(239, 68, 68, 0.24);
   border-radius: 12px;
   padding: 14px 16px;
   display: flex;
@@ -157,7 +157,7 @@
 }
 
 .stat-value {
-  color: #60a5fa;
+  color: #f87171;
   font-size: clamp(1.1rem, 1rem + 0.9vw, 1.9rem);
   line-height: 1.1;
 }
@@ -426,7 +426,7 @@
   padding: 12px 14px;
   border-radius: 12px;
   background: rgba(15, 23, 42, 0.96);
-  border: 1px solid rgba(96, 165, 250, 0.24);
+  border: 1px solid rgba(248, 113, 113, 0.24);
   color: #edf6ff;
 }
 
@@ -439,11 +439,11 @@
 
 .history-mode {
   text-transform: capitalize;
-  color: #bfdbfe;
+  color: #fecaca;
 }
 
 .history-accuracy {
-  color: #93c5fd;
+  color: #fca5a5;
 }
 
 .empty-history {
@@ -465,7 +465,7 @@
 .results-card {
   width: min(520px, 100%);
   background: rgba(15, 23, 42, 0.98);
-  border: 1px solid rgba(96, 165, 250, 0.2);
+  border: 1px solid rgba(248, 113, 113, 0.2);
   border-radius: 22px;
   padding: 28px 24px;
   box-shadow: 0 22px 45px rgba(0, 0, 0, 0.2);
@@ -473,7 +473,7 @@
 
 .result-kicker {
   margin: 0 0 12px;
-  color: #93c5fd;
+  color: #fca5a5;
   letter-spacing: 0.16em;
   font-size: 0.72rem;
 }
@@ -494,7 +494,7 @@
   padding: 12px 14px;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(147, 197, 253, 0.14);
+  border: 1px solid rgba(252, 165, 165, 0.14);
   display: flex;
   flex-direction: column;
   gap: 4px;
