@@ -387,13 +387,13 @@
 .history-panel {
   margin-top: 18px;
   padding: 18px 20px;
-  background: rgba(127, 29, 29, 0.16);
-  border: 1px solid rgba(248, 113, 113, 0.28);
+  background: rgba(234, 179, 8, 0.08);
+  border: 1px solid rgba(234, 179, 8, 0.28);
   border-radius: 16px;
 }
 
 .history-label {
-  color: #fecaca;
+  color: #fde047;
 }
 
 .history-header {
@@ -426,7 +426,7 @@
   padding: 12px 14px;
   border-radius: 12px;
   background: rgba(15, 23, 42, 0.96);
-  border: 1px solid rgba(248, 113, 113, 0.24);
+  border: 1px solid rgba(234, 179, 8, 0.24);
   color: #edf6ff;
 }
 
@@ -439,11 +439,11 @@
 
 .history-mode {
   text-transform: capitalize;
-  color: #fecaca;
+  color: #fde047;
 }
 
 .history-accuracy {
-  color: #fca5a5;
+  color: #fde047;
 }
 
 .empty-history {
