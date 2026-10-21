@@ -141,8 +141,8 @@
 }
 
 .stat-box {
-  background: rgba(239, 68, 68, 0.09);
-  border: 1px solid rgba(239, 68, 68, 0.24);
+  background: rgba(234, 179, 8, 0.09);
+  border: 1px solid rgba(234, 179, 8, 0.24);
   border-radius: 12px;
   padding: 14px 16px;
   display: flex;
@@ -157,7 +157,7 @@
 }
 
 .stat-value {
-  color: #f87171;
+  color: #fde047;
   font-size: clamp(1.1rem, 1rem + 0.9vw, 1.9rem);
   line-height: 1.1;
 }
