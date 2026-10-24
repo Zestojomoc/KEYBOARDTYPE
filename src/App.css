@@ -74,7 +74,6 @@
   transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
-.mode-tab:hover,
 .chip:hover,
 .action-button:hover,
 .history-clear:hover {
@@ -82,7 +81,11 @@
   box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.12);
 }
 
-.mode-tab:focus-visible,
+.mode-tab:hover {
+  border-color: rgba(96, 165, 250, 0.8);
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.16);
+}
+
 .chip:focus-visible,
 .action-button:focus-visible,
 .history-clear:focus-visible,
@@ -92,11 +95,16 @@
   outline-offset: 2px;
 }
 
+.mode-tab:focus-visible {
+  outline: 2px solid rgba(96, 165, 250, 0.9);
+  outline-offset: 2px;
+}
+
 .mode-tab.active {
-  background: rgba(234, 179, 8, 0.18);
-  color: #fde047;
-  border-color: rgba(234, 179, 8, 0.55);
-  box-shadow: inset 0 1px 0 rgba(220, 252, 231, 0.12);
+  background: rgba(37, 99, 235, 0.2);
+  color: #93c5fd;
+  border-color: rgba(96, 165, 250, 0.65);
+  box-shadow: inset 0 1px 0 rgba(219, 234, 254, 0.12);
 }
 
 .chip.active {
