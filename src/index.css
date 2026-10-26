@@ -2,10 +2,10 @@
   font-family: 'SF Pro Display', 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #eef5ff;
+  color: #fff1f2;
   background:
-    radial-gradient(circle at top, rgba(255, 255, 255, 0.04), transparent 24%),
-    linear-gradient(180deg, #0b0f14 0%, #111821 28%, #0e141b 100%);
+    radial-gradient(circle at top, rgba(251, 113, 133, 0.14), transparent 24%),
+    linear-gradient(180deg, #120b0d 0%, #1d1215 28%, #120b0d 100%);
   color-scheme: dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,8 +19,8 @@
 
 html {
   background:
-    radial-gradient(circle at top, rgba(255, 255, 255, 0.04), transparent 24%),
-    linear-gradient(180deg, #0b0f14 0%, #111821 28%, #0e141b 100%);
+    radial-gradient(circle at top, rgba(251, 113, 133, 0.14), transparent 24%),
+    linear-gradient(180deg, #120b0d 0%, #1d1215 28%, #120b0d 100%);
 }
 
 body {
@@ -28,9 +28,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    radial-gradient(circle at top, rgba(255, 255, 255, 0.04), transparent 24%),
-    linear-gradient(180deg, #0b0f14 0%, #111821 28%, #0e141b 100%);
-  color: #eef5ff;
+    radial-gradient(circle at top, rgba(251, 113, 133, 0.14), transparent 24%),
+    linear-gradient(180deg, #120b0d 0%, #1d1215 28%, #120b0d 100%);
+  color: #fff1f2;
 }
 
 button,
