@@ -379,8 +379,7 @@
 }
 
 .summary-grid span,
-.result-grid span,
-.history-label {
+.result-grid span {
   color: rgba(237, 233, 254, 0.76);
   font-size: 0.72rem;
   letter-spacing: 0.12em;
@@ -395,13 +394,13 @@
 .history-panel {
   margin-top: 18px;
   padding: 18px 20px;
-  background: rgba(76, 29, 149, 0.11);
-  border: 1px solid rgba(167, 139, 250, 0.28);
+  background: rgba(127, 29, 29, 0.14);
+  border: 1px solid rgba(248, 113, 113, 0.32);
   border-radius: 16px;
 }
 
 .history-label {
-  color: #c4b5fd;
+  color: #fca5a5;
 }
 
 .history-header {
@@ -414,7 +413,7 @@
 
 .history-header h3 {
   margin: 6px 0 0;
-  color: #f5f3ff;
+  color: #fee2e2;
   font-size: 1.1rem;
 }
 
@@ -456,7 +455,7 @@
 
 .empty-history {
   margin: 0;
-  color: #ddd6fe;
+  color: #fecaca;
 }
 
 .results-overlay {
