@@ -286,31 +286,31 @@
 }
 
 .action-button.primary {
-  background: linear-gradient(180deg, #a78bfa, #7c3aed);
-  border-color: rgba(124, 58, 237, 0.82);
+  background: linear-gradient(180deg, #f87171, #b91c1c);
+  border-color: rgba(185, 28, 28, 0.86);
   color: #f5f3ff;
   font-weight: 700;
-  box-shadow: 0 6px 22px rgba(139, 92, 246, 0.28);
+  box-shadow: 0 6px 22px rgba(220, 38, 38, 0.28);
 }
 
 .action-button.primary:hover,
 .action-button.primary:active {
-  border-color: rgba(91, 33, 182, 0.98);
-  box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.2), 0 8px 24px rgba(139, 92, 246, 0.34);
+  border-color: rgba(127, 29, 29, 0.98);
+  box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.2), 0 8px 24px rgba(220, 38, 38, 0.34);
 }
 
 .action-button.new-test {
-  background: linear-gradient(180deg, #c4b5fd, #6d28d9);
-  border-color: rgba(109, 40, 217, 0.84);
+  background: linear-gradient(180deg, #fca5a5, #dc2626);
+  border-color: rgba(220, 38, 38, 0.86);
   color: #f5f3ff;
   font-weight: 700;
-  box-shadow: 0 6px 22px rgba(139, 92, 246, 0.26);
+  box-shadow: 0 6px 22px rgba(220, 38, 38, 0.26);
 }
 
 .action-button.new-test:hover,
 .action-button.new-test:active {
-  border-color: rgba(76, 29, 149, 0.98);
-  box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.2), 0 8px 24px rgba(139, 92, 246, 0.34);
+  border-color: rgba(153, 27, 27, 0.98);
+  box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.2), 0 8px 24px rgba(220, 38, 38, 0.34);
 }
 
 .summary-panel {
