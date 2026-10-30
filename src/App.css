@@ -108,10 +108,10 @@
 }
 
 .chip.active {
-  background: rgba(76, 29, 149, 0.42);
-  color: #ddd6fe;
-  border-color: rgba(167, 139, 250, 0.9);
-  box-shadow: inset 0 1px 0 rgba(237, 233, 254, 0.1);
+  background: rgba(185, 28, 28, 0.42);
+  color: #fecaca;
+  border-color: rgba(248, 113, 113, 0.9);
+  box-shadow: inset 0 1px 0 rgba(254, 226, 226, 0.1);
 }
 
 .panel {
