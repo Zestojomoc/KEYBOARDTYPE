@@ -316,9 +316,9 @@
 .summary-panel {
   margin-top: 18px;
   padding: 16px 18px;
-  background: rgba(76, 29, 149, 0.18);
-  color: #ede9fe;
-  border: 1px solid rgba(167, 139, 250, 0.38);
+  background: rgba(127, 29, 29, 0.14);
+  color: #fee2e2;
+  border: 1px solid rgba(248, 113, 113, 0.32);
   border-radius: 16px;
 }
 
@@ -331,7 +331,7 @@
 }
 
 .summary-header {
-  color: #ddd6fe;
+  color: #fecaca;
   margin-bottom: 14px;
 }
 
@@ -353,21 +353,21 @@
 }
 
 .summary-correct {
-  background: rgba(139, 92, 246, 0.08);
-  border-color: rgba(167, 139, 250, 0.25);
-  color: #ddd6fe;
+  background: rgba(220, 38, 38, 0.1);
+  border-color: rgba(248, 113, 113, 0.3);
+  color: #fecaca;
 }
 
 .summary-speed {
-  background: rgba(139, 92, 246, 0.08);
-  border-color: rgba(167, 139, 250, 0.25);
-  color: #ddd6fe;
+  background: rgba(220, 38, 38, 0.1);
+  border-color: rgba(248, 113, 113, 0.3);
+  color: #fecaca;
 }
 
 .summary-characters {
-  background: rgba(139, 92, 246, 0.08);
-  border-color: rgba(167, 139, 250, 0.25);
-  color: #ddd6fe;
+  background: rgba(220, 38, 38, 0.1);
+  border-color: rgba(248, 113, 113, 0.3);
+  color: #fecaca;
 }
 
 .summary-grid .summary-metric span {
