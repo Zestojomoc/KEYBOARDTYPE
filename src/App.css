@@ -32,15 +32,15 @@
   width: 30px;
   height: 30px;
   border-radius: 8px;
-  background: linear-gradient(180deg, #fed7aa, #f97316);
+  background: linear-gradient(180deg, #bbf7d0, #22c55e);
   color: #211a05;
   font-weight: 800;
   font-size: 0.82rem;
-  box-shadow: inset 0 1px 0 rgba(255, 237, 213, 0.32), 0 8px 18px rgba(249, 115, 22, 0.35);
+  box-shadow: inset 0 1px 0 rgba(240, 253, 244, 0.32), 0 8px 18px rgba(34, 197, 94, 0.35);
 }
 
 .brand-name {
-  color: #fed7aa;
+  color: #bbf7d0;
   font-size: 1.1rem;
   letter-spacing: 0.03em;
   font-weight: 700;
