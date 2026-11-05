@@ -394,13 +394,13 @@
 .history-panel {
   margin-top: 18px;
   padding: 18px 20px;
-  background: rgba(127, 29, 29, 0.14);
-  border: 1px solid rgba(248, 113, 113, 0.32);
+  background: rgba(161, 98, 7, 0.14);
+  border: 1px solid rgba(250, 204, 21, 0.55);
   border-radius: 16px;
 }
 
 .history-label {
-  color: #fca5a5;
+  color: #fde68a;
 }
 
 .history-header {
@@ -413,7 +413,7 @@
 
 .history-header h3 {
   margin: 6px 0 0;
-  color: #fee2e2;
+  color: #fef08a;
   font-size: 1.1rem;
 }
 
@@ -455,7 +455,7 @@
 
 .empty-history {
   margin: 0;
-  color: #fecaca;
+  color: #fde68a;
 }
 
 .results-overlay {
