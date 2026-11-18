@@ -286,17 +286,17 @@
 }
 
 .action-button.primary {
-  background: linear-gradient(180deg, #4ade80, #16a34a);
-  border-color: rgba(21, 128, 61, 0.86);
-  color: #211a05;
+  background: linear-gradient(180deg, #ef4444, #dc2626);
+  border-color: rgba(185, 28, 28, 0.86);
+  color: #fff;
   font-weight: 700;
-  box-shadow: 0 6px 22px rgba(34, 197, 94, 0.28);
+  box-shadow: 0 6px 22px rgba(220, 38, 38, 0.28);
 }
 
 .action-button.primary:hover,
 .action-button.primary:active {
-  border-color: rgba(22, 101, 52, 0.98);
-  box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.2), 0 8px 24px rgba(34, 197, 94, 0.34);
+  border-color: rgba(153, 27, 27, 0.98);
+  box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.2), 0 8px 24px rgba(220, 38, 38, 0.34);
 }
 
 .action-button.new-test {
