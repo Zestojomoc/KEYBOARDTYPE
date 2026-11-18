@@ -316,9 +316,9 @@
 .summary-panel {
   margin-top: 18px;
   padding: 16px 18px;
-  background: rgba(21, 128, 61, 0.14);
-  color: #bbf7d0;
-  border: 1px solid rgba(34, 197, 94, 0.55);
+  background: rgba(234, 179, 8, 0.12);
+  color: #fef3c7;
+  border: 1px solid rgba(234, 179, 8, 0.55);
   border-radius: 16px;
 }
 
@@ -331,7 +331,7 @@
 }
 
 .summary-header {
-  color: #86efac;
+  color: #fde047;
   margin-bottom: 14px;
 }
 
@@ -353,21 +353,21 @@
 }
 
 .summary-correct {
-  background: rgba(21, 128, 61, 0.18);
-  border-color: rgba(34, 197, 94, 0.35);
-  color: #bbf7d0;
+  background: rgba(234, 179, 8, 0.16);
+  border-color: rgba(234, 179, 8, 0.42);
+  color: #fef08a;
 }
 
 .summary-speed {
-  background: rgba(21, 128, 61, 0.18);
-  border-color: rgba(34, 197, 94, 0.35);
-  color: #bbf7d0;
+  background: rgba(234, 179, 8, 0.16);
+  border-color: rgba(234, 179, 8, 0.42);
+  color: #fef08a;
 }
 
 .summary-characters {
-  background: rgba(21, 128, 61, 0.18);
-  border-color: rgba(34, 197, 94, 0.35);
-  color: #bbf7d0;
+  background: rgba(234, 179, 8, 0.16);
+  border-color: rgba(234, 179, 8, 0.42);
+  color: #fef08a;
 }
 
 .summary-grid .summary-metric span {
