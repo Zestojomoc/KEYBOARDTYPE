@@ -300,17 +300,17 @@
 }
 
 .action-button.new-test {
-  background: linear-gradient(180deg, #bbf7d0, #22c55e);
-  border-color: rgba(34, 197, 94, 0.86);
-  color: #211a05;
+  background: linear-gradient(180deg, #fde047, #eab308);
+  border-color: rgba(202, 138, 4, 0.86);
+  color: #422006;
   font-weight: 700;
-  box-shadow: 0 6px 22px rgba(34, 197, 94, 0.26);
+  box-shadow: 0 6px 22px rgba(234, 179, 8, 0.26);
 }
 
 .action-button.new-test:hover,
 .action-button.new-test:active {
-  border-color: rgba(21, 128, 61, 0.98);
-  box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.2), 0 8px 24px rgba(34, 197, 94, 0.34);
+  border-color: rgba(161, 98, 7, 0.98);
+  box-shadow: 0 0 0 1px rgba(253, 224, 71, 0.2), 0 8px 24px rgba(234, 179, 8, 0.34);
 }
 
 .summary-panel {
